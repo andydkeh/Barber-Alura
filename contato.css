@@ -1,0 +1,112 @@
+header{
+    background-color: antiquewhite;
+    padding: 20px 0;
+
+}
+
+.caixa{
+    position:relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+
+/* Aqui fica os itens da lista */
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+/* Aqui fica os links */
+nav a{
+    text-transform: uppercase; /*Deixa o texto em maiúsculo*/
+    color:black;
+    font-weight: bold; /*Deixa em negrito*/
+    font-size: 22px;
+    text-decoration: none;
+    font-family: Andale Mono, monospace;
+}
+
+/*Ajusta o mouse*/
+nav a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: pink;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover {
+    background: antiquewhite;
+    transform: scale(1.2);
+
+}
+
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid darkgrey;
+    padding: 8px 15px;
+}
+
+.copyright {
+    color: white;
+    
+}
